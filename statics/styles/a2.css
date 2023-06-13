@@ -1,0 +1,252 @@
+@font-face {
+    font-family:'mea';
+    src: url(meaculparegular.ttf);
+}
+@font-face {
+    font-family:'csr';
+    src: url(csr.ttf);
+}
+@font-face {
+    font-family:'an';
+    src: url(ai.otf);
+}
+body{
+    background-color: rgb(17, 35, 46);
+   
+}
+body::-webkit-scrollbar {
+    width: 12px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(78, 202, 255, 0.978);       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(187, 0, 255);   
+    border-radius: 20px;     
+    border: 3px solid rgba(175, 89, 255, 0.754); 
+  }
+
+#title{
+
+    background-color: rgba(58, 139, 159, 0.831);
+display: flex;
+justify-content:center;
+font-family: 'mea';
+}
+#sbtitle{
+    background-color: rgb(122, 35, 142);
+display: flex;
+justify-content:center;
+
+}
+#yo{
+   
+position: relative;
+top: -60rem;
+left: 54rem;
+
+}
+#bordesito{
+    position: absolute;
+    left:54.5rem;
+    top: 11rem;
+}
+
+#texto{
+    border-image-source:
+    url('../media/borde.png');
+border-image-width: 10vw;
+border-image-outset: 4rem;
+border-image-slice: 33% fill;
+border-image-repeat: round;
+    background-color: rgba(83, 127, 166, 0.44);
+    left: 4rem;
+    position: relative;
+    top:4rem;
+    font-family:'csr';
+    max-width: 20rem;
+    max-height: 30rem;
+    overflow: auto;
+   
+
+}
+
+h2{
+    font-family: 'an';
+}
+h2:last-child{
+    color: rgb(95, 119, 119);
+}
+#pelis{
+
+   border-image-source:
+    url('../media/marco.png');
+border-image-width: 10vw;
+border-image-outset: 2rem;
+border-image-slice: 33% fill;
+border-image-repeat: round;
+   
+    flex-direction:column;
+   
+    position: relative;
+    border-radius: 2rem;
+    max-width: 20rem;
+    max-height: 30rem;
+    left: 31rem;
+    top: -29rem;
+    overflow: auto;
+}
+#perfav{
+
+position: relative;
+top: 0rem;
+background-color: rgb(7, 40, 75);
+}
+
+article{
+    height: 38rem;
+    background-color: rgb(38, 65, 65);
+}
+/* adfshljklklklklklklklklklklklklklklklklklklklkk */
+#dibujo{
+    position:absolute;
+    height: 500px;
+    width: 500px;
+    top: 100%;
+    background-color: black;
+
+}
+
+.bolsa{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(112, 129, 139);
+    rotate: 45deg;
+    border-radius: 0% 50% 100% 50%;
+}
+.bolsa1{
+    position: absolute;
+    top: 125px;
+    left: 250px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(112, 129, 139);
+    rotate: 45deg;
+    border-radius:  100% 50% 0% 50%;
+}
+.bolsa2{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    rotate: 135deg;
+    border-radius:  100% ;
+}
+.bolsa3{
+    position: absolute;
+    top: 135px;
+    left: 250px;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(0, 0, 0);
+    rotate: 45deg;
+    border-radius:  0% 0% 35% 0% ;
+}
+.bolsa4{
+    position: absolute;
+    top: 135px;
+    left: 270px;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(0, 0, 0);
+    rotate: 45deg;
+    border-radius:  0% 0% 35% 0% ;
+}
+.bolsa5{
+    position: absolute;
+    top: 135px;
+    left: 290px;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(0, 0, 0);
+    rotate: 45deg;
+    border-radius:  0% 0% 35% 0% ;
+}
+ 
+ .bolsa6{
+    position: absolute;
+    top: 262.5px;
+    left: 262.5px;
+    width: 75px;
+    height: 75px;
+    background-color:  rgb(94, 150, 182); 
+    rotate: 45deg;
+    border-radius: 0% 50% 100% 50%;
+}
+.pez1{
+    position: absolute;
+    top: 275px;
+    left: 275px;
+    width: 25px;
+    height: 25px;
+    background-color:  rgb(182, 176, 94); 
+    rotate: 135deg;
+    border-radius: 0% 150% 50% 150%;
+}
+.pez2{
+    position: absolute;
+    top: 283px;
+    left: 274px;
+    width: 4px;
+    height: 4px;
+    background-color:  rgb(0, 0, 0); 
+    rotate: 135deg;
+    border-radius:100%;
+}
+.pez3{
+    position: absolute;
+    top: 278px;
+    left: 300px;
+    width: 18px;
+    height: 18px;
+    background-color:  rgb(182, 176, 94); 
+    rotate: 135deg;
+    border-radius: 0% ;
+}
+.pez4{
+    position: absolute;
+    top: 270px;
+    left: 309px;
+    width: 18px;
+    height: 30px;
+    background-color:  rgb(94, 150, 182); 
+    rotate: 0deg;
+    border-radius: 0% 100% 0% 0% ;
+}
+.pez5{
+    position: absolute;
+    top: 295px;
+    left: 325px;
+    width: 4px;
+    height: 4px;
+    background-color:  rgb(255, 255, 255); 
+    rotate: 135deg;
+    border-radius:100%;
+}
+.pez6{
+    position: absolute;
+    top: 285px;
+    left: 325px;
+    width: 8px;
+    height: 8px;
+    background-color:  rgb(255, 255, 255); 
+    rotate: 135deg;
+    border-radius:100%;
+}
